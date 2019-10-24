@@ -8,7 +8,7 @@ int main()
 	using namespace std;
 	int x = 14;
 	float q, pi = 3.14;
-	q = exp(-exp(1) * log(2 * x)) + pi / 2 - atan(sqrt(exp(1)));
+	q = exp(x * x * log(2 * x)) + pi / 2 - atan(sqrt(exp(1)));
 	cout << q;
 	_getch();
 	return 0;
